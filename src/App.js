@@ -1,11 +1,8 @@
 import React from 'react'
+import Layout from './components/Layout';
 
 function App() {
-  return (
-    <div className='bg-red-500'>
-      Hello
-    </div>
-  );
+  return <Layout/>
 }
 
 export default App;
