@@ -12,3 +12,19 @@ body {
         @apply fixed top-0 bg-[#343444] h-full w-full flex flex-col md:flex md:bg-transparent md:static md:w-auto md:h-auto md:flex-row items-center justify-center text-white text-lg transition-all duration-500;
     }
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #343444;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: linear-gradient(45deg, #D24CF9 0%, #2138A0 35%, #81269F 100%);;
+  }
