@@ -37,7 +37,7 @@ const Header = () => {
 
     return (
         <header className='w-full h-[70px]'>
-            <div className='max-w-[1320px] mx-auto h-full px-4 flex items-center justify-between '>
+            <div className='max-w-[740px] md:max-w-[900px] lg:max-w-[1024px] xl:max-w-[1320px] mx-auto h-full px-4 flex items-center justify-between '>
                 <div className='flex items-center bg-clip-text text-transparent bg-gradient-to-tr from-[#4b50e6] via-[#e250e5] to-[#4b50e6]'>
                     <AiOutlineFire className='text-5xl text-[#e250e5]'/>
                     <h1 className='text-4xl font-extrabold'>NFT.</h1>
