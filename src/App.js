@@ -1,8 +1,10 @@
 import React from 'react'
-import Layout from './components/Layout';
+import Routers from '../src/routes/Routers'
 
 function App() {
-  return <Layout/>
+  return (
+    <Routers />
+  )
 }
 
 export default App;
