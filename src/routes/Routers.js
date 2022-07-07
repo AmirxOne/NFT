@@ -15,9 +15,9 @@ import Wallet from '../pages/Wallet';
 const Routers = () => {
     return (
         <Routes>
+            <Route path='/' element={<Navigate to='/home' />} />
             <Route path='/' element={<Layout />}>
-                {/* <Route path='/' element={<Navigate to="/home" />} /> */}
-                <Route index element={<Home />} />
+                <Route path='/home' element={<Home />} />
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/create' element={<Create />} />
                 <Route path='/edit-profile' element={<EditProfile />} />
