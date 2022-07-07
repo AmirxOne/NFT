@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full max-w-[1320px] m-auto text-center lg:text-left bg-black text-white mt-20">
-      <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
+    <footer className="w-full m-auto text-center lg:text-left bg-black text-white mt-20">
+      <div className="xl:max-w-[1320px] lg:max-w-[1024px] md:max-w-[900px] sm:max-w-[640px] px-4 m-auto flex justify-center items-center lg:justify-between py-6 border-b border-gray-300">
         <div className="mr-12 hidden lg:block">
           <span>Get connected with us on social networks:</span>
         </div>
@@ -112,7 +112,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="mx-6 py-10 text-center md:text-left">
+      <div className="xl:max-w-[1320px] lg:max-w-[1024px] md:max-w-[900px] sm:max-w-[640px] m-auto px-4 py-10 text-center md:text-left">
         <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="">
             <h6
@@ -233,7 +233,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#c2c2c2] text-center text-[12px] px-6 py-6 bg-gradient-to-r">
+      <div className="xl:max-w-[1320px] lg:max-w-[1024px] md:max-w-[900px] sm:max-w-[640px] m-auto text-[#c2c2c2] text-center text-[12px] px-4 py-6 bg-gradient-to-r">
         <span>© 2021-2022  </span>
         <a href="https://tailwind-elements.com/"
         >
