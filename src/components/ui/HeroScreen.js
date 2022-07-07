@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const HeroScreen = () => {
     return (
-        <section className=' text-white w-full mt-10 lg:mt-32'>
+        <section className='text-white w-full mt-32 lg:mt-32'>
             <div className='max-w-[640px] md:max-w-[900px] lg:max-w-[1024px] xl:max-w-[1320px] mx-auto h-full px-4 flex flex-col lg:flex-row items-center justify-center'>
                 <div className='lg:w-1/2 flex flex-col items-center text-center lg:items-start lg:text-start justify-center'>
                     <p className= ' w-full font-bold leading-snug text-xl md:text-3xl lg:te'>Discover rare digital art and collect <span className='text-xl md:text-4xl  bg-clip-text text-transparent bg-gradient-to-tr from-[#4b50e6] via-[#e250e5] to-[#4b50e6]'>sell extraordinary</span> NFTs</p>
