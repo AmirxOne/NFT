@@ -2,13 +2,13 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-center lg:text-left bg-black text-white mt-20">
+    <footer className="w-full max-w-[1320px] m-auto text-center lg:text-left bg-black text-white mt-20">
       <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
         <div className="mr-12 hidden lg:block">
           <span>Get connected with us on social networks:</span>
         </div>
         <div className="flex justify-center">
-          <a href="#!" className="mr-6 text-[#e250e5]">
+          <a href="#!" className="mr-6 text-[#ffffff]">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -25,13 +25,13 @@ const Footer = () => {
               ></path>
             </svg>
           </a>
-          <a href="#!" className="mr-6 text-[#e250e5]">
+          <a href="#!" className="mr-6 text-[#ffffff]">
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="twitter"
-              class="w-4"
+              className="w-4"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
@@ -42,13 +42,13 @@ const Footer = () => {
               ></path>
             </svg>
           </a>
-          <a href="#!" class="mr-6 text-[#e250e5]">
+          <a href="#!" className="mr-6 text-[#ffffff]">
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="google"
-              class="w-3.5"
+              className="w-3.5"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 488 512"
@@ -59,13 +59,13 @@ const Footer = () => {
               ></path>
             </svg>
           </a>
-          <a href="#!" class="mr-6 text-[#e250e5]">
+          <a href="#!" className="mr-6 text-[#ffffff]">
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="instagram"
-              class="w-3.5"
+              className="w-3.5"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -76,13 +76,13 @@ const Footer = () => {
               ></path>
             </svg>
           </a>
-          <a href="#!" class="mr-6 text-[#e250e5]">
+          <a href="#!" className="mr-6 text-[#ffffff]">
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="linkedin-in"
-              class="w-3.5"
+              className="w-3.5"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -93,13 +93,13 @@ const Footer = () => {
               ></path>
             </svg>
           </a>
-          <a href="#!" className="text-[#e250e5]">
+          <a href="#!" className="text-[#ffffff]">
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="github"
-              class="w-4"
+              className="w-4"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512"
@@ -126,10 +126,10 @@ const Footer = () => {
             md:justify-start
           "
             >
-              Amir.X.One
+              NFT
             </h6>
             <p>
-            NFT is the supplier of the latest electronics products such as laptops, smartphones and smartwatches. Brand has been proud to serve <span className="text-[#e250e5]">122,232 people</span> so far.
+              NFT is the supplier of the latest electronics products such as laptops, smartphones and smartwatches. Brand has been proud to serve <span className="text-[#FE76D5]">122,232 people</span> so far.
             </p>
           </div>
           <div className="">
@@ -233,13 +233,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-center px-6 py-3 bg-gradient-to-r  from-[#4b50e6] via-[#e250e5] to-[#4b50e6]">
+      <div className="text-[#c2c2c2] text-center text-[12px] px-6 py-6 bg-gradient-to-r">
         <span>© 2021-2022  </span>
-        <a
-          className="text-white"
-          href="https://tailwind-elements.com/"
+        <a href="https://tailwind-elements.com/"
         >
-           Amir.X.One
+          Copyrights 2022, Developed by Lashkari and SaharKhiz.
         </a>
       </div>
     </footer>
