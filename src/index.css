@@ -6,3 +6,9 @@
 body {
     background-color: #14141f;
 }
+
+@layer components {
+    .a {
+        @apply fixed top-0 bg-[#343444] h-full w-full flex flex-col md:flex md:bg-transparent md:static md:w-auto md:h-auto md:flex-row items-center justify-center text-white text-lg transition-all duration-500;
+    }
+}
