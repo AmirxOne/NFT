@@ -8,7 +8,7 @@ import { Link, NavLink } from 'react-router-dom';
 const data_Nav = [
     {
         id:1,
-        navTitle:"Home",
+        navTitle:"slam",
         url:"/home",
     },
     {
