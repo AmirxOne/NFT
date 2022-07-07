@@ -1,17 +1,32 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
-const Trend = props => {
-  return (
-    <div className='xl:max-w-[1320px] lg:max-w-[1024px] md:max-w-[900px] sm:max-w-[640px] px-4 h-auto m-auto my-[100px]'>
-      <span className='font-medium text-[30px] text-[#ffffff] flex mb-[20px]'>Trend</span>
-      <div className='grid grid-cols-2 gap-y-10 sm:grid-cols-3 gap-x-6 lg:grid-cols-4 xl:grid-cols-4 xl:gap-x-8'>
-        <div className='w-full h-[450px]  aspect-w-1 aspect-h-1 rounded-2xl overflow-hidden xl:aspect-w-6 xl:aspect-h-8 bg-[#2d304e]'></div>
-        <div className='w-full h-[450px]  aspect-w-1 aspect-h-1 rounded-2xl overflow-hidden xl:aspect-w-6 xl:aspect-h-8 bg-[#2d304e]'></div>
-        <div className='w-full h-[450px]  aspect-w-1 aspect-h-1 rounded-2xl overflow-hidden xl:aspect-w-6 xl:aspect-h-8 bg-[#2d304e]'></div>
-        <div className='w-full h-[450px]  aspect-w-1 aspect-h-1 rounded-2xl overflow-hidden xl:aspect-w-6 xl:aspect-h-8 bg-[#2d304e]'></div>
-      </div>
-    </div>
-  )
+const Trend = (props) => {
+    return (
+        <Fragment>
+            <div className='w-full aspect-w-1 aspect-h-1 rounded-2xl overflow-hidden xl:aspect-w-6 xl:aspect-h-8 bg-[#343444]'>
+                <div className='w-full overflow-hidden object-cover' >
+                    <img className='flex' src={props.image} alt="test" />
+                </div>
+                <div className='flex flex-col p-[10px]'>
+                    <span className='flex font-medium text-[#ffffff] mb-[10px]'>{props.title}</span>
+
+                    <div className='flex items-center justify-start w-full relative'>
+                        <div className='w-[30px] h-[30px] mr-[15px] flex rounded-[50%] overflow-hidden'>
+                            <img src={props.avatar} alt="avatar" />
+                        </div>
+                        <div>
+                            <span className='flex mb-[2px] text-[#b6b6b6] text-[10px] sm:text-[10px]'>Created By</span>
+                            <span className='flex text-[#ffffff] text-[12px]'>{props.creator}</span>
+                        </div>
+                        <div className='flex flex-col absolute right-0'>
+                            <span className='flex mb-[2px] text-[#b6b6b6] text-[10px]'>Current Bid</span>
+                            <span className='flex text-[#ffffff] text-[12px]'>{props.price} ETH</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </Fragment>
+    )
 }
 
 export default Trend

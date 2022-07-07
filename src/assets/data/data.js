@@ -15,7 +15,7 @@ import ava04 from "../images/ava-04.png";
 import ava05 from "../images/ava-05.png";
 import ava06 from "../images/ava-06.png";
 
-export const NFT__DATA = [
+export const nftData = [
   {
     id: "01",
     title: "Travel Monkey Club",

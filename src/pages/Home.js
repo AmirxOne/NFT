@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 // component
 import HeroScreen from '../components/ui/HeroScreen';
-import Trend from '../components/TrendNft/Trend';
+import Trend from '../components/TrendNft/Trends';
 import Cards from '../components/CardNft/Cards';
 
 const Home = () => {
