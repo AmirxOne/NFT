@@ -22,7 +22,7 @@ const HeroScreen = () => {
                     </div>
                 </div>
                 <div className='lg:w-1/2 mt-16 lg:mt-0 overflow-hidden flex mx-auto items-center justify-center lg:justify-end '>
-                    <img className='w-[500px] lg:w-[400px] xl:w-[500px] rounded-lg' src={Hero} alt="Hero"/>
+                    <img className='w-[500px] lg:w-[400px] xl:w-[500px] rounded-2xl' src={Hero} alt="Hero"/>
                 </div>
                 
             </div>

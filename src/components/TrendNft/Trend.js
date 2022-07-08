@@ -49,7 +49,7 @@ const Trend = (props) => {
                                 <Skeleton className='flex items-center' height="8px" width="40px" />
                                 <Skeleton className='flex items-center' height="10px" width="60px" />
                             </div>}
-                            {isLoading && <div>
+                            {isLoading && <div className='flex flex-col items-end'>
                                 <span className='flex mb-[2px] text-[#b6b6b6] text-[10px]'>Current Bid</span>
                                 <span className='flex text-[#ffffff] text-[12px]'>{props.price} ETH</span>
                             </div>}
@@ -58,7 +58,7 @@ const Trend = (props) => {
                     <div className='mt-[15px]'>
                         {!isLoading && <div className='w-[80px] h-[30px] overflow-hidden text-[12px] rounded-xl text-white'><Skeleton className='absolute top-[-3px]' width="100%" height="100%" /></div>}
 
-                        {isLoading && <button className='w-[80px] h-[30px] bg-[#4A5BE9] text-[12px] rounded-xl text-white'>Plase Bid</button>}
+                        {isLoading && <button className='hover:bg-[#3c49bd] transition-all duration-300 w-[80px] h-[30px] bg-[#4A5BE9] text-[12px] rounded-xl text-white'>Plase Bid</button>}
                     </div>
                 </div>
             </div>
