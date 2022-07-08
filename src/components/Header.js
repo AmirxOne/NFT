@@ -12,11 +12,6 @@ const data_Nav = [
         url:"/home",
     },
     {
-        id:2,
-        navTitle:"Market",
-        url:"/market",
-    },
-    {
         id:3,
         navTitle:"Create",
         url:"/create",
