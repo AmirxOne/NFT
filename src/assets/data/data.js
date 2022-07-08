@@ -113,7 +113,7 @@ export const SELLER__DATA = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
     sellerName: "Ryan Carder",
     sellerImg: ava01,
-    currentBid: 5.89,
+    currentBid: "5.89 SHba",
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -124,7 +124,7 @@ export const SELLER__DATA = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
     sellerName: "Trista Francis",
     sellerImg: ava02,
-    currentBid: 5.89,
+    currentBid: "5.89 ETH",
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -135,7 +135,7 @@ export const SELLER__DATA = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
     sellerName: "Ryan Carder",
     sellerImg: ava03,
-    currentBid: 5.89,
+    currentBid: "5.89 BIT",
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -146,81 +146,9 @@ export const SELLER__DATA = [
 
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
 
-    sellerName: "Ryan Carder",
-    sellerImg: ava04,
-    currentBid: 5.89,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "05",
-
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-
-    sellerName: "Trista Francis",
-    sellerImg: ava05,
-    currentBid: 5.89,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "06",
-
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-
-    sellerName: "Trista Francis",
-    sellerImg: ava06,
-    currentBid: 5.89,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "01",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
     sellerName: "Ryan Carder",
     sellerImg: ava01,
-    currentBid: 5.89,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "02",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-    sellerName: "Trista Francis",
-    sellerImg: ava02,
-    currentBid: 5.89,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "03",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-    sellerName: "Ryan Carder",
-    sellerImg: ava03,
-    currentBid: 5.89,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "04",
-
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-
-    sellerName: "Ryan Carder",
-    sellerImg: ava04,
-    currentBid: 5.89,
+    currentBid: "5.89 SHba",
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -233,7 +161,7 @@ export const SELLER__DATA = [
 
     sellerName: "Trista Francis",
     sellerImg: ava05,
-    currentBid: 5.89,
+    currentBid: "5.89 BIt",
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -246,7 +174,7 @@ export const SELLER__DATA = [
 
     sellerName: "Trista Francis",
     sellerImg: ava06,
-    currentBid: 5.89,
+    currentBid: "5.89 ETH",
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",

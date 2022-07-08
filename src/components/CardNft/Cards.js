@@ -31,11 +31,15 @@ const data = [
 
 const Cards = () => {
     return (
-        <div className='w-full h-auto mb-10'>
-            <div className='max-w-[640px] md:max-w-[900px] lg:max-w-[1024px] xl:max-w-[1320px] mx-auto h-full grid grid-cols-12 sm:gap-7 px-4'>
-                {
-                    data.map(item => <Card key={item.id} data={item}/>)
-                }
+        <div className='w-full h-auto mb-10 flex flex-col'>
+            <div className='max-w-[640px] md:max-w-[900px] lg:max-w-[1024px] xl:max-w-[1320px] mx-auto h-full'>
+                <h1 className='font-medium text-[30px] text-[#ffffff] flex mb-[50px] px-4'>Create and sell your NFT.</h1>
+                
+                <div className='max-w-[640px] md:max-w-[900px] lg:max-w-[1024px] xl:max-w-[1320px] mx-auto h-full grid grid-cols-12 sm:gap-7 px-4'>
+                    {
+                        data.map(item => <Card key={item.id} data={item}/>)
+                    }
+                </div>
             </div>
         </div>
     );
