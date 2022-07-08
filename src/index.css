@@ -9,8 +9,14 @@ body {
 
 @layer components {
     .a {
-        @apply  absolute top-0 bg-[#343444] md:bg-transparent h-[100vh] w-full z-50 flex flex-col md:flex  md:static md:w-auto md:h-auto md:flex-row items-center justify-center text-white text-lg transition-all duration-500;
+        @apply absolute top-0 bg-[#343444] md:bg-transparent h-[100vh] w-full z-50 flex flex-col md:flex  md:static md:w-auto md:h-auto md:flex-row items-center justify-center text-white text-lg transition-all duration-500;
     }
+    .b {
+        @apply z-[1000] w-full h-[70px] fixed top-0;
+    }
+    .c {
+      @apply z-[1000] w-full h-[70px] fixed top-0  bg-[#14141fcb] backdrop-blur-[12px];
+  }
 }
 
 /* width */
