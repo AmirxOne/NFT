@@ -1,4 +1,4 @@
-import React,{useState, useEffect, useRef} from 'react';
+import React,{useState, useRef} from 'react';
 // react icons
 import{AiOutlineFire, AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 import{FaWallet} from 'react-icons/fa'
