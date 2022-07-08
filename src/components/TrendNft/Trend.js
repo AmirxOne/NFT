@@ -14,13 +14,13 @@ const Trend = (props) => {
     }, [])
 
     return (
-        <SkeletonTheme baseColor="#2a2a36" highlightColor="#444">
-            <div className='w-full aspect-w-1 aspect-h-1 rounded-2xl overflow-hidden xl:aspect-w-6 xl:aspect-h-8 bg-[#343444]'>
-                <div className='relative w-full overflow-hidden h-[300px] object-cover' >
-                    {!isLoading && 
-                    <div>
-                        <Skeleton className='absolute top-[-4px] h-[300px]' />
-                    </div>
+        <SkeletonTheme baseColor="#2a2a36" highlightColor="#ffffff10">
+            <div className='w-full  aspect-w-1 aspect-h-1 rounded-2xl overflow-hidden xl:aspect-w-6 xl:aspect-h-8 bg-[#343444]'>
+                <div className='relative w-full h-[340px] xl:h-[298px] lg:h-[230px] md:h-[273px] sm:h-[186px] s:h-[240px] object-contain overflow-hidden ' >
+                    {!isLoading &&
+                        <div className='h-full'>
+                            <Skeleton className='absolute top-[-3px] h-full' />
+                        </div>
                     }
                     <img className='flex w-full h-full object-cover' src={props.image} alt="test" />
                 </div>
@@ -54,6 +54,11 @@ const Trend = (props) => {
                                 <span className='flex text-[#ffffff] text-[12px]'>{props.price} ETH</span>
                             </div>}
                         </div>
+                    </div>
+                    <div className='mt-[15px]'>
+                        {!isLoading && <div className='w-[80px] h-[30px] overflow-hidden text-[12px] rounded-xl text-white'><Skeleton className='absolute top-[-3px]' width="100%" height="100%" /></div>}
+
+                        {isLoading && <button className='w-[80px] h-[30px] bg-[#4A5BE9] text-[12px] rounded-xl text-white'>Plase Bid</button>}
                     </div>
                 </div>
             </div>
