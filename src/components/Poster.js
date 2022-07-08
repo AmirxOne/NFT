@@ -5,9 +5,7 @@ import { useLocation } from 'react-router-dom'
 import bgContact from '../assets/images/bg.jpg'
 
 const Poster = () => {
-
     const loc = useLocation()
-    console.log(loc)
 
     return (
         <div className='w-full h-64 -top-[70px] relative'>
