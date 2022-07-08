@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState, useEffect, useRef} from 'react';
 // react icons
 import{AiOutlineFire, AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 import{FaWallet} from 'react-icons/fa'
@@ -29,9 +29,21 @@ const Header = () => {
     const showHandler = () => {
         setShow(!show)
     }
+    
 
+    const headerRef = useRef(null);
+
+    
+    window.addEventListener("scroll", () => {
+        if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+            headerRef.current.classList.add("c");
+        } else {
+            headerRef.current.classList.remove("c");
+        }
+    })
+      
     return (
-        <header className=' z-[1000] w-full h-[70px] fixed top-0 bg-[#14141fcb] backdrop-blur-[12px]'>
+        <header ref={headerRef} className='b'>
             <div className='max-w-[640px] md:max-w-[900px] lg:max-w-[1024px] xl:max-w-[1320px] mx-auto h-full px-4 flex items-center justify-between '>
                 <div className='flex items-center bg-clip-text text-transparent bg-gradient-to-tr from-[#4b50e6] via-[#e250e5] to-[#4b50e6]'>
                     <AiOutlineFire className='text-5xl text-[#e250e5]'/>
