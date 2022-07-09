@@ -5,7 +5,7 @@ import { FaBitcoin } from 'react-icons/fa'
 
 const WalletCard = ({walletData}) => {
 
-const {title, desc, icon} = walletData
+const {title, desc} = walletData
 
     return (
         <div className='xl:col-span-3 lg:col-span-4 sm:col-span-6 col-span-12  bg-[#343444] rounded-2xl flex flex-col text-white p-7 mb-7 sm:mb-0'>
