@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+// React router dom
+import { Link } from 'react-router-dom'
 
 
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
@@ -25,9 +27,9 @@ const Trend = (props) => {
                     <img className='flex w-full h-full object-cover' src={props.image} alt="test" />
                 </div>
                 <div className='flex flex-col p-[10px]'>
-                    <span className='flex font-medium text-[#ffffff] mb-[10px]'>{
+                    <Link to={`/home/${props.id}`} className='flex font-medium text-[#ffffff] mb-[10px]'>{
                         !isLoading ? <Skeleton width={100} /> : props.title
-                    }</span>
+                    }</Link>
 
                     <div className='flex items-center justify-start w-full relative'>
                         <div className='w-[30px] h-[30px] mr-[15px] flex rounded-[50%] overflow-hidden'>

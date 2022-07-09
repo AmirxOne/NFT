@@ -15,6 +15,7 @@ const Trends = () => {
             image={data.imgUrl}
             avatar={data.creatorImg}
             price={data.currentBid}
+            id={data.id}
           />
         ))}
       </div>

@@ -17,7 +17,7 @@ import ava06 from "../images/ava-06.png";
 
 export const nftData = [
   {
-    id: "01",
+    id:1,
     title: "Travel Monkey Club",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img01,
@@ -27,7 +27,7 @@ export const nftData = [
   },
 
   {
-    id: "02",
+    id:2,
     title: "Sir Lion Swag",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img02,
@@ -37,7 +37,7 @@ export const nftData = [
   },
 
   {
-    id: "03",
+    id:3,
     title: "Civilian",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img03,
@@ -47,7 +47,7 @@ export const nftData = [
   },
 
   {
-    id: "04",
+    id:4,
     title: "Guard",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img04,
@@ -57,7 +57,7 @@ export const nftData = [
   },
 
   {
-    id: "05",
+    id:5,
     title: "Travel Monkey Club",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img05,
@@ -67,7 +67,7 @@ export const nftData = [
   },
 
   {
-    id: "06",
+    id:6,
     title: "Sir Lion Swag",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img06,
@@ -77,7 +77,7 @@ export const nftData = [
   },
 
   {
-    id: "07",
+    id:7,
     title: "Civilian",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img07,
@@ -87,7 +87,7 @@ export const nftData = [
   },
 
   {
-    id: "08",
+    id:8,
     title: "Guard",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img08,
@@ -97,7 +97,7 @@ export const nftData = [
   },
 
   {
-    id: "09",
+    id:9,
     title: "Travel Monkey Club",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img09,
