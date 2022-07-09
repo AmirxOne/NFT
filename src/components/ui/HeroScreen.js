@@ -17,8 +17,7 @@ const HeroScreen = () => {
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti excepturi omnis neque adipisci sequi ullam unde in minus quis quos.
                     </p>
                     <div className='flex mt-10 w-full justify-center lg:justify-start'>
-                        <Link className='flex items-center px-5 py-2 border border-[#4b50e6] rounded-3xl' to='/market'><RiRocketLine className='mr-2'/>Explore</Link>
-                        <Link className='flex items-center px-5 py-2 border border-[#4b50e6] rounded-3xl ml-5' to='/create'><MdOutlineCreate className='mr-2'/>Create</Link>
+                        <Link className='flex items-center px-6 py-2 border border-[#4b50e6] rounded-3xl' to='/create'><MdOutlineCreate className='mr-2'/>Create</Link>
                     </div>
                 </div>
                 <div className='lg:w-1/2 mt-16 lg:mt-0 overflow-hidden flex mx-auto items-center justify-center lg:justify-end '>
