@@ -10,7 +10,7 @@ const Poster = () => {
     return (
         <div className='w-full h-64 -top-[70px] relative'>
             <img className='object-cover h-64 w-full' src={bgContact} alt="" />
-            <div className='text-white absolute top-1/2 left-[44%] font-extrabold text-4xl '>
+            <div className='text-white absolute top-1/2 font-extrabold text-4xl w-full text-center '>
                 {loc.pathname === "/contact" ? <span>Contact</span> : <span>Create Item</span>}
             </div>
         </div>
