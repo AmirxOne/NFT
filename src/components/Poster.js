@@ -14,6 +14,7 @@ const Poster = () => {
                 {loc.pathname === "/contact" && <span>Contact</span>}
                 {loc.pathname === "/create" && <span>Create Item</span>}
                 {loc.pathname === "/wallet" && <span>Connect Wallet</span>}
+                {loc.pathname === "/contact" ||  loc.pathname === "/create" || loc.pathname === "/wallet" ? '' : <span>Details</span>}
             </div>
         </div>
     );
