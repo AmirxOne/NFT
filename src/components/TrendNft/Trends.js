@@ -33,7 +33,7 @@ const Trends = (props) => {
 
         <div className='flex justify-between items-center w-full h-[50px] mb-4'>
           <label htmlFor="underline_select" className="sr-only">Underline select</label>
-          <select onChange={selectHandler} id="underline_select" className="pr-[10px] block py-2.5 px-1 w-[90px] text-sm text-gray-500 bg-transparent border-0 border-b-2 border-[#8b8b8b] appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-[#969696] peer">
+          <select onChange={selectHandler} id="underline_select" className="pr-[10px] block py-1 px-1 w-[90px] text-sm text-gray-500 bg-transparent border-0 border-b-2 border-[#8b8b8b] appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-[#969696] peer">
             <option className='bg-[#2d2930] text-[#ffffff]' value="default">Sort By</option>
             <option className='bg-[#2d2930] text-[#ffffff]' value="high">High Price</option>
             <option className='bg-[#2d2930] text-[#ffffff]' value="low">Low Price</option>
