@@ -1,7 +1,6 @@
 import React,{useState} from 'react';
 // react router dom
-import { useParams } from 'react-router-dom'
-import { Link } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom'
 // Components
 import Poster from '../components/Poster';
 // data
@@ -19,11 +18,14 @@ const NftDetails = () => {
     const dataD = nftData.find(item => item.id === id + 1)
     const {title, desc, imgUrl, creator, creatorImg} = dataD
 
-    //cuntionall
+    // Cuntionall
     const [show ,setShow] = useState(false);
     const clickHandler = () => {
         setShow(!show)
     }
+
+    const loc = useLocation()
+    console.log(loc)
 
     return (
             <>
