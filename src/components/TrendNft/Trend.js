@@ -7,6 +7,10 @@ import 'react-loading-skeleton/dist/skeleton.css'
 const Trend = (props) => {
     const [isLoading, setIsLoading] = useState(false);
 
+    const clickHandler = () => {
+        props.onOpenBox()
+    }
+
     useEffect(() => {
         setTimeout(() => {
             setIsLoading(true)
@@ -58,7 +62,7 @@ const Trend = (props) => {
                     <div className='mt-[15px]'>
                         {!isLoading && <div className='w-[80px] h-[30px] overflow-hidden text-[12px] rounded-xl text-white'><Skeleton className='absolute top-[-3px]' width="100%" height="100%" /></div>}
 
-                        {isLoading && <button className='hover:bg-[#3c49bd] transition-all duration-300 w-[80px] h-[30px] bg-[#4A5BE9] text-[12px] rounded-xl mt-1 text-white'>Plase Bid</button>}
+                        {isLoading && <button onClick={clickHandler} className='hover:bg-[#3c49bd] transition-all duration-300 w-[80px] h-[30px] bg-[#4A5BE9] text-[12px] rounded-xl mt-1 text-white'>Plase Bid</button>}
                     </div>
                 </div>
             </div>
