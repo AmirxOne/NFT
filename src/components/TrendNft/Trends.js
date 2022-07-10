@@ -55,6 +55,7 @@ const Trends = (props) => {
                 creator={data.creator}
                 image={data.imgUrl}
                 avatar={data.creatorImg}
+                id={data.id}
                 price={data.currentBid}
                 onOpenBox={openBox}
               />)}
@@ -68,6 +69,7 @@ const Trends = (props) => {
                 creator={data.creator}
                 image={data.imgUrl}
                 avatar={data.creatorImg}
+                id={data.id}
                 price={data.currentBid}
                 onOpenBox={openBox}
               />)}
@@ -80,6 +82,7 @@ const Trends = (props) => {
                 creator={data.creator}
                 image={data.imgUrl}
                 avatar={data.creatorImg}
+                id={data.id}
                 price={data.currentBid}
                 onOpenBox={openBox}
               />
