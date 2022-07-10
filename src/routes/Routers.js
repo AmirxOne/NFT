@@ -18,13 +18,14 @@ const Routers = () => {
             <Route path='/' element={<Navigate to='/home' />} />
             <Route path='/' element={<Layout />}>
                 <Route path='/home' element={<Home />} />
+                <Route path='/home/:id' element={<NftDetails />} />
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/create' element={<Create />} />
                 <Route path='/edit-profile' element={<EditProfile />} />
                 <Route path='/market' element={<Market />} />
                 <Route path='/seller-profile' element={<SellerProfile />} />
                 <Route path='/wallet' element={<Wallet />} />
-                <Route path='/market/:id' element={<NftDetails />} />
+                
             </Route>
         </Routes>
     );
